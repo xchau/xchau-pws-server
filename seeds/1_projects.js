@@ -79,6 +79,11 @@ exports.seed = (knex) => {
           created_at: '2017-06-06 19:42:16.964-07',
           updated_at: new Date
         }
-      ]);
+      ])
+      .then(() => {
+      return knex.raw(
+       "SELECT setval('projects_id_seq', (SELECT MAX(id) FROM projects));"
+     );
     });
+  });
 };
