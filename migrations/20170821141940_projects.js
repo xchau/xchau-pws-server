@@ -11,7 +11,7 @@ exports.up = (knex) => {
       .notNullable()
       .defaultTo('Default Heading');
     table
-      .string('blurb')
+      .text('blurb')
       .notNullable()
       .defaultTo('Default Blurb');
     table
@@ -27,8 +27,8 @@ exports.up = (knex) => {
       .notNullable()
       .defaultTo('javascript');
     table
-      .timestamp(true, true);
-  }
+      .timestamps(true, true);
+  });
 };
 
 exports.down = (knex) => {
