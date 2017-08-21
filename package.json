@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "knex": "knex",
+    "nf": "nf",
     "heroku-postbuild": "knex migrate:latest"
   },
   "keywords": [],
   "author": "Minh Chau <xiu.chau@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "foreman": "^2.0.0",
     "morgan": "^1.8.2",
     "nodemon": "^1.11.0"
   },
@@ -22,5 +24,8 @@
     "humps": "^2.0.1",
     "knex": "^0.13.0",
     "pg": "^7.1.2"
+  },
+  "engines": {
+    "node": "^8.4.0"
   }
 }
