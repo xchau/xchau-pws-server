@@ -68,7 +68,7 @@ exports.seed = (knex) => {
           id: 6,
           project_name: 'Group Randomizer',
           path_name: 'group_randomizer',
-          heading: 'Some quick JavaScript-fu practice',
+          heading: 'Some JavaScript-fu practice',
           blurb: 'This was a short assignment given to my at Galvanize. The idea is to create an app that takes in a string of names and evenly split them into a specified number of groups. A great exercise to brush up on performant array manipulation.',
           github: 'https://github.com/xchau/group-randomizer',
           deployed_at: 'https://xchau-group-randomizer.herokuapp.com',
