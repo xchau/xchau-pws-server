@@ -7,6 +7,10 @@ exports.up = (knex) => {
       .notNullable()
       .defaultTo('Default Name');
     table
+      .string('path_name')
+      .notNullable()
+      .defaultTo('Default Path');
+    table
       .string('heading')
       .notNullable()
       .defaultTo('Default Heading');
