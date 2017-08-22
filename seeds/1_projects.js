@@ -81,7 +81,7 @@ exports.seed = (knex) => {
           project_name: 'React Snake',
           path_name: 'react_snake',
           heading: 'Snake + React!',
-          blurb: 'Recent, my friend was asked to create the classic arcade game "Snake" in React for a technical interview. The easier way to approach this would be to leverage HTML5\'s canvas element. Thinking about the game in terms of stateful vs. presentational components was a little bit trickier, but I think I got pretty close!',
+          blurb: 'Recently, my friend was asked to create the classic arcade game "Snake" in React for a technical interview. The easier way to approach this would be to leverage HTML5\'s canvas element. Thinking about the game in terms of stateful vs. presentational components was a little bit trickier, but I think I got pretty close!',
           github: 'https://github.com/xchau/xc-react-snake',
           deployed_at: 'https://xchau-react-snake.herokuapp.com',
           stack: 'javascript, react',
