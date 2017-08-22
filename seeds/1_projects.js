@@ -67,7 +67,7 @@ exports.seed = (knex) => {
         {
           id: 6,
           project_name: 'Group Randomizer',
-          path_name: 'g.randomizer',
+          path_name: 'group_randomizer',
           heading: 'Some quick JavaScript-fu practice',
           blurb: 'This was a short assignment given to my at Galvanize. The idea is to create an app that takes in a string of names and evenly split them into a specified number of groups. A great exercise to brush up on performant array manipulation.',
           github: 'https://github.com/xchau/group-randomizer',
@@ -79,7 +79,7 @@ exports.seed = (knex) => {
         {
           id: 7,
           project_name: 'React Snake',
-          path_name: 'r.snake',
+          path_name: 'react_snake',
           heading: 'Snake + React!',
           blurb: 'A friend recently told me that in a technical interview, he was asked to outline how he would create the Snake game in React. Of course the easy way would be to leverage HTML5\'s canvas element, but I\'ve never shied from a challenge before ー and a challenge it was.',
           github: 'https://github.com/xchau/xc-react-snake',
