@@ -1,3 +1,5 @@
+'use strict';
+
 exports.seed = (knex) => {
   return knex('projects').del()
     .then(function () {
@@ -43,7 +45,7 @@ exports.seed = (knex) => {
           github: 'https://github.com/xchau/miser-deals',
           deployed_at: 'https://miser-deals.surge.sh',
           stack: 'javascript, html, css, g maps',
-          created_at: '2017-11-18 19:42:16.964-07',
+          created_at: '2016-11-18 19:42:16.964-07',
           updated_at: new Date
         },
         {
