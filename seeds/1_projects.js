@@ -72,7 +72,7 @@ exports.seed = (knex) => {
           blurb: 'This was a short assignment given to my at Galvanize. The idea is to create an app that takes in a string of names and evenly split them into a specified number of groups. A great exercise to brush up on performant array manipulation.',
           github: 'https://github.com/xchau/group-randomizer',
           deployed_at: 'https://xchau-group-randomizer.herokuapp.com',
-          stack: 'javascript, react, g maps',
+          stack: 'javascript, react',
           created_at: '2017-05-10 19:42:16.964-07',
           updated_at: new Date
         },
