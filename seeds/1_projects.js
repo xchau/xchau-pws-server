@@ -36,7 +36,7 @@ exports.seed = (knex) => {
           blurb: 'Last week I wanted to try out a new crockpot recipe, but alas, was not stocked with one. A good crockpot goes for well over $50, and since this was going to be a one time ordeal, it would be nice if I could just borrow one. Luckily, there\'s an app for that!',
           github: 'https://github.com/xchau/lendit-app',
           deployed_at: 'http://xchau-lendit.herokuapp.com',
-          stack: 'javascript, html, css',
+          stack: 'javascript, html, css, jquery',
           created_at: '2017-01-16 19:42:16.964-07',
           updated_at: new Date
         },
@@ -86,6 +86,30 @@ exports.seed = (knex) => {
           deployed_at: 'https://xchau-react-snake.herokuapp.com',
           stack: 'javascript, react',
           created_at: '2017-06-06 19:42:16.964-07',
+          updated_at: new Date
+        },
+        {
+          id: 8,
+          project_name: 'Personal Site v2.0',
+          path_name: 'personal_site_v2',
+          heading: 'Introducing my new personal webpage',
+          blurb: 'My old site (xchau-pws.herokuapp.com) was a bare bones endeavor to showcase my skills and personal information. I loved it for its simplicity, but it was built only on HTML, CSS and jQuery. This resulted in slow static content loading. Hopefully the new site, with a new blog feel, does better!',
+          github: 'https://github.com/xchau/pws-v2',
+          deployed_at: 'https://xchau-pws-v2.herokuapp.com',
+          stack: 'javascript, react',
+          created_at: '2017-08-14 19:42:16.964-07',
+          updated_at: new Date
+        },
+        {
+          id: 9,
+          project_name: 'Personal Site',
+          path_name: 'personal_site',
+          heading: 'An attempt to create an online presence',
+          blurb: 'Resumes and cover letters only go so far so I thought I\'d create a personal webpage to highlight my skills. I decided to stick to just the basics for this project (ie: HTML, CSS, JS, jQuery) to brush up on my fundamentals.',
+          github: 'https://github.com/xchau/personal-webpage',
+          deployed_at: 'http://xchau-pws.herokuapp.com',
+          stack: 'javascript, html, css, jquery',
+          created_at: '2017-05-02 19:42:16.964-07',
           updated_at: new Date
         }
       ])
