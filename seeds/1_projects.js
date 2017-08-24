@@ -92,7 +92,7 @@ exports.seed = (knex) => {
           id: 8,
           project_name: 'Personal Site v2.0',
           path_name: 'personal_site_v2',
-          heading: 'Introducing personal webpage 2.0!',
+          heading: 'Introducing my personal webpage 2.0!',
           blurb: 'My old site (xchau-pws.herokuapp.com) was a bare bones endeavor to showcase my skills and personal information. I loved it for its simplicity, but it was built only on HTML, CSS and jQuery. This resulted in slow static content loading. Hopefully the new site, with a new blog feel, does better!',
           github: 'https://github.com/xchau/pws-v2',
           deployed_at: 'https://xchau-pws-v2.herokuapp.com',
