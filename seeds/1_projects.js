@@ -91,7 +91,7 @@ exports.seed = (knex) => {
         {
           id: 8,
           project_name: 'Personal Site v2.0',
-          path_name: 'personal_site_v2',
+          path_name: 'mnchau_v2',
           heading: 'Introducing my personal webpage 2.0!',
           blurb: 'My old site (xchau-pws.herokuapp.com) was a bare bones endeavor to showcase my skills and personal information. I loved it for its simplicity, being built only on HTML, CSS and jQuery. But this resulted in slow static content loading, which doesn\'t quite communicate "Hire me!". Hopefully the new site, with a new blog feel, does better!',
           github: 'https://github.com/xchau/pws-v2',
@@ -103,7 +103,7 @@ exports.seed = (knex) => {
         {
           id: 9,
           project_name: 'Personal Site',
-          path_name: 'personal_site',
+          path_name: 'mnchau_v1',
           heading: 'An attempt at an online presence - mnchau.com',
           blurb: 'Resumes and cover letters only go so far so I thought I\'d create a personal webpage to highlight my skills. I decided to stick to just the basics for this project (ie: HTML, CSS, JS, jQuery) to brush up on my fundamentals.',
           github: 'https://github.com/xchau/personal-webpage',
