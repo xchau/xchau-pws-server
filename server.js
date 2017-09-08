@@ -21,20 +21,6 @@ const projects = require('./routes/projects');
 
 app.use('/api', projects);
 
-app.get('/resume', (req, res, next) => {
-  const resumePath = path.join(__dirname, 'docs/chau-minh-resume.pdf');
-
-  res.writeHead({
-    'Content-Type': 'application/pdf'
-  });
-
-  // const readStream = fileSystem.createReadStream(resumePath);
-
-  // readStream.pipe(res);
-
-  res.sendFile(resumePath);
-});
-
 app.use((req, res) => {
   res.sendStatus(404);
 });

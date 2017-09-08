@@ -27,9 +27,25 @@ exports.up = (knex) => {
       .notNullable()
       .defaultTo('');
     table
+      .string('demo_link')
+      .notNullable()
+      .defaultTo('');
+    table
       .string('stack')
       .notNullable()
       .defaultTo('javascript');
+    table
+      .text('primary_use_case')
+      .notNullable()
+      .defaultTo('Default PUC');
+    table
+      .text('primary_user')
+      .notNullable()
+      .defaultTo('Default primary user');
+    table
+      .string('hero_link')
+      .notNullable()
+      .defaultTo('');
     table
       .timestamps(true, true);
   });
