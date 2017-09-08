@@ -16,7 +16,7 @@ exports.seed = (knex) => {
           stack: 'javascript, react native, redux, ios',
           primary_use_case: '',
           primary_user: '',
-          hero_link: 'http://res.cloudinary.com/xchau/image/upload/v1504855858/blip-hero_hv1b2e.png',
+          hero_link: 'https://res.cloudinary.com/xchau/image/upload/v1504855858/blip-hero_hv1b2e.png',
           created_at: '2017-04-10 19:42:16.964-07',
           updated_at: new Date
         },
